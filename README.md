@@ -1,5 +1,7 @@
 # RISC-V Game of Life Coding Challenge
 
+[![Test CI](https://github.com/ken6078/riscv-game-of-life-coding-challenge/actions/workflows/test-ci.yml/badge.svg)](https://github.com/ken6078/riscv-game-of-life-coding-challenge/actions/workflows/test-ci.yml)
+
 > This project is a submission for **Coding Challenge - Broadening the RISC-V High Precision Code Base and Reach**.
 
 A terminal-based implementation of **Conway's Game of Life** in Python, with wraparound edges, classic pattern presets, and test coverage via `pytest`.
@@ -35,7 +37,7 @@ A terminal-based implementation of **Conway's Game of Life** in Python, with wra
 
 ```bash
 # 1) Clone
-git clone <your-repo-url>
+git clone https://github.com/ken6078/riscv-game-of-life-coding-challenge.git
 cd riscv-game-of-life-coding-challenge
 
 # 2) Create and activate virtual environment (recommended)
