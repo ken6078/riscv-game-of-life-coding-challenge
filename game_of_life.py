@@ -35,6 +35,7 @@ def step(grid: list[list[int]]) -> list[list[int]]:
     rows = len(grid)
     cols = len(grid[0])
     nxt = [[0] * cols for _ in range(rows)]
+    # ITERATION: visit each cell and apply Conway's rules.
     for r in range(rows):
         for c in range(cols):
             n = count_neighbors(grid, r, c)

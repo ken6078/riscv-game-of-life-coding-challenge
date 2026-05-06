@@ -34,6 +34,7 @@ This project demonstrates iteration in three places:
 
 1. `main()` runs the simulation generation by generation.
 2. `step()` iterates over every cell in the grid.
+3. `count_neighbors()` iterates over the 8 neighboring cells around each cell.
 
 This problem is naturally iterative rather than recursive, because Conway's Game of Life evolves through repeated generations.
 
@@ -131,4 +132,4 @@ pytest -q
 
 ## License
 
-Add your preferred license (e.g. MIT) in a `LICENSE` file.
+This project is licensed under the MIT License. See LICENSE.
