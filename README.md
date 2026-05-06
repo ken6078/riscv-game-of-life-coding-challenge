@@ -28,6 +28,15 @@ A terminal-based implementation of **Conway's Game of Life** in Python, with wra
 `-- requirements-dev.txt   # Dev dependencies
 ```
 
+## Iteration
+
+This project demonstrates iteration in three places:
+
+1. `main()` runs the simulation generation by generation.
+2. `step()` iterates over every cell in the grid.
+
+This problem is naturally iterative rather than recursive, because Conway's Game of Life evolves through repeated generations.
+
 ## Requirements
 
 - Python 3.10+ (recommended)

@@ -28,6 +28,10 @@ def count_neighbors(grid: list[list[int]], r: int, c: int) -> int:
 
 
 def step(grid: list[list[int]]) -> list[list[int]]:
+    """
+    Iteration example:
+    Compute the next generation by visiting every cell in the grid.
+    """
     rows = len(grid)
     cols = len(grid[0])
     nxt = [[0] * cols for _ in range(rows)]
@@ -104,6 +108,7 @@ def main() -> int:
 
     try:
         if not args.no_show:
+            # ITERATION: repeatedly advance the board one generation at a time.
             for gen in range(1, args.gens + 1):
                 # ANSI clear screen + cursor home, works in bash and modern terminals.
                 print("\x1b[2J\x1b[H", end="")
