@@ -38,6 +38,10 @@ This project demonstrates iteration in three places:
 
 This problem is naturally iterative rather than recursive, because Conway's Game of Life evolves through repeated generations.
 
+## demo
+<img width="928" height="500" alt="record" src="https://github.com/user-attachments/assets/edde8295-a34b-4862-afc3-e2189d7076c8" />
+
+
 ## Requirements
 
 - Python 3.10+ (recommended)
